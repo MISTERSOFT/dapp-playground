@@ -1,0 +1,14 @@
+body {
+    background: #212529;
+}
+
+.disabled-todolist:before {
+    content: '';
+    position: absolute;
+    z-index: 99;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: var(--bs-border-radius-lg);
+}
