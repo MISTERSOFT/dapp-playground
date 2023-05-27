@@ -5,7 +5,8 @@
 	// List of extensions which should be recommended for users of this workspace.
 	"recommendations": [
 		"remixproject.ethereum-remix",
-		"nomicfoundation.hardhat-solidity"
+		"nomicfoundation.hardhat-solidity",
+		"ms-vscode-remote.vscode-remote-extensionpack"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": [
