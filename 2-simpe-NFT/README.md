@@ -1,5 +1,8 @@
 # Learn how to create a Token or NFT
 
+## Intro
+Project has been generated with the Hardhat CLI `npx hardhat`.
+
 ## Requirements
 - Create an [Alchemy](https://dashboard.alchemy.com/) account, then create a new app on the Sepolia Network, then get the HTTP URL with your API key. This will be stored in the `.env` file.
 
