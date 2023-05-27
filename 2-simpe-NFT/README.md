@@ -1,13 +1,21 @@
-# Sample Hardhat Project
+# Learn how to create a Token or NFT
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+## Requirements
+- Create an [Alchemy](https://dashboard.alchemy.com/) account, then create a new app on the Sepolia Network, then get the HTTP URL with your API key. This will be stored in the `.env` file.
 
-Try running some of the following tasks:
+## Config
+Deployment configuration is in `hardhat.config.ts`. We need to create `.env` file based on the `.env-template`.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+
+## Token
+
+1. Create a contract (e.g `DumbToken`) that inherit from ERC-20 contract.
+2. Compile `npm run compile`
+3. Deploy `npm run deploy:testnet` (check the deploy script `deploy.ts`)
+
+
+## NFT
+
+1. Create a contract (e.g `DumbNFT`) that inherit from ERC-721 contract.
+2. Compile `npm run compile`
+3. Deploy `npm run deploy:testnet` (check the deploy script `deploy.ts`)
